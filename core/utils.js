@@ -29,7 +29,7 @@
   }
 
   function isNWApp() {
-    return (typeof require === "function") && (typeof require('nw.gui') !== "undefined");
+    return (typeof require === "function") && (typeof undefined !== "undefined");
   }
 
   function isChromeWebApp() {
