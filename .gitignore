@@ -2,5 +2,6 @@
 .settings
 *~
 node_modules
+package-lock.json
 tmp
 .DS_Store
